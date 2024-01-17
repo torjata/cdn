@@ -10,4 +10,5 @@ if (filename === 'index' || filename === 'activities') {
     linkElement.href = 'style/admin-template/admin-template/assets/vendor/css/core.css';
     linkElement.className = 'template-customizer-core-css';
     linkElement.id = 'core-css';
+document.head.appendChild(linkElement);
 }
